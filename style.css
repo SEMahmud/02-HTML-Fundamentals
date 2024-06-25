@@ -91,3 +91,13 @@ li:last-child {
 /*li:nth-child(2) {
   color: red;
 }*/
+
+/* Styling Hyperlinks. pseudo class is used here as well.*/
+a:link {
+  color: #1098ad;
+  text-decoration: none;
+}
+/* We have to give visited links a color as well. Usually the color is kept the same as given link color */
+a:visited {
+  color: #1098ad;
+}
